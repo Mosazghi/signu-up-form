@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Norse-Bold";
+  src: url("../asset/Norse-Bold.otf");
+}
+
+main {
+  font-size: 16px;
+  line-height: 1.5;
+  height: 100vh;
+}
+
+#left-side {
+  background-image: url("../asset/jaanus-jagomagi-Bg1hgJEU3Es-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: relative;
+}
+
+#logo-body {
+  width: 100%;
+  background: black;
+  opacity: 0.6;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  z-index: -1;
+}
+
+#logo-body > h2 {
+  font-family: "Norse-Bold";
+  font-size: 4em;
+}
+
+#first > h2 {
+  text-align: left;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+#second {
+  background-color: #ffffff;
+  box-shadow: 0 5px 5px #9c9898;
+  text-align: start;
+}
+
+input:not([type="submit"]) {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: rgb(237, 247, 237) !important;
+}
+
+input[type="submit"] {
+  background-color: #538f1e;
+}
+
+@media (max-width: 768px) {
+  #left-side {
+    height: 50%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #538f1e;
+}
