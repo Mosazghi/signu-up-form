@@ -62,7 +62,7 @@ input[type="submit"] {
   background-color: #538f1e;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #left-side {
     height: 50%;
   }
